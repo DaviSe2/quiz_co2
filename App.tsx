@@ -1,11 +1,8 @@
 import { Text, View, StyleSheet } from 'react-native';
+import AppNavigator from './src/navigation/AppNavigaton';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Olá, mundo!</Text>
-    </View>
-  );
+  return <AppNavigator />;
 }
 
 const styles = StyleSheet.create({
